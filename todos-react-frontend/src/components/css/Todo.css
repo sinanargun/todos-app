@@ -1,0 +1,123 @@
+/* General container */
+.todo-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Section */
+.todo-add-container {
+  padding: 5px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* Place input fields on the same row */
+.todo-input-row {
+  display: flex;
+  justify-content: space-between;
+
+  label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+.todo-input {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Buttons */
+.todo-action-button {
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+  margin: 0 5px;
+}
+
+/* Button container for actions */
+.todo-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Create button */
+.create-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Update button */
+.done-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.done-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Mark as Done button */
+.update-button {
+  background-color: #007BFF;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Todo List Section */
+.todo-list-container {
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background: white;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Completed Todos */
+.done {
+  text-decoration: line-through;
+  color: #888;
+  background-color: rgb(17, 221, 7) !important;
+}
